@@ -162,8 +162,11 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
         ]);
 
         // Load identifiers
-        $service->loadIdentifier('Authentication.Password', compact('fields'));
-
+$service->setConfig([
+    'identifier' => [
+        'Authentication.Password' => compact('fields')
+    ]
+]);
         return $service;
     }
 }
