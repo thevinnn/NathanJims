@@ -107,9 +107,7 @@
             <h2>Welcome to Nathan's B2B</h2>
             <p>Connecting Businesses with Projects, Contractors, and Opportunities.</p>
         </div>
-        <img id="b2b-image" src="<?= $this->Url->build('/img/b2b2.jpg') ?>" alt="B2B" onerror="this.onerror=null; this.src='<?= $this->Url->build('webroot/img/b2b2.jpg') ?>';">
-
-    </section>
+        <img id="b2b-image" src="<?= $this->Url->build('/img/b2b2.jpg') ?>" alt="B2B" onerror="this.onerror=null; this.src='<?= $this->Url->build('webroot/img/b2b2.jpg') ?>';">    </section>
 
     <!-- About Section -->
     <section id="about" class="about-section">
